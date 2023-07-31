@@ -87,6 +87,9 @@
   padding: 40px 0;
   background-color: #fff;
   background: url('media/lightning-gd1f7c93cd_1920.jpg') no-repeat fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 
 .random-info h2 {
@@ -98,6 +101,11 @@
   margin: 10px;
   text-align: left;
   max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.1); /* Use RGBA with alpha channel for transparency */
+  padding: 20px; /* Adjust the padding for better spacing */
+  border-radius: 10px; /* Add some border-radius for a cleaner look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11px);
 }
 
 .info img {
