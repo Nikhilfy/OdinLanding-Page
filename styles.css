@@ -86,7 +86,7 @@
   text-align: center;
   padding: 40px 0;
   background-color: #fff;
-  background: url('/images&VIdeos/lightning-gd1f7c93cd_1920.jpg') no-repeat fixed;
+  background: url('media/lightning-gd1f7c93cd_1920.jpg') no-repeat fixed;
 }
 
 .random-info h2 {
@@ -123,7 +123,7 @@ form {
   color: #fff;
   padding: 20px;
   text-align: center;
-  background: url('/images&VIdeos/NewsletterBG.jpg') no-repeat fixed;
+  background: url('media/NewsletterBG.jpg') no-repeat fixed;
   border: 2px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   box-shadow: 0 0 10px rgba(0, 0, 0, .2);
