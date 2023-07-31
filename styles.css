@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Teko:wght@300;400&family=UnifrakturCook:wght@700&display=swap');
+
+ body {
+  position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+ }
+
+ a {
+  text-decoration: none;
+  padding: 5px;
+  color: aqua;
+ }
+
+ p {
+ color: rgba(0, 255, 255, 1);
+ }
+
+ h2 {
+ color: rgba(0, 255, 255, 1);
+ }
+ 
+ header {
+    padding: 10px;
+  }
+
+  nav {
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  header nav a {
+    color: cyan;
+    text-decoration: none;
+    margin: 10px;
+    text-align: left;
+}
+
+  .logo img {
+    width: 300px;
+    height: 100px;
+    margin-right: auto;
+    background: transparent;
+    backdrop-filter: blur(20px);
+  }
+
+
+.header-links {
+    display: inline;
+    position: top;
+ } 
+
+.hero {
+    text-align: justify;
+    color: black;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.hero video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero .btn2 {
+  width: 24%;
+  height: 44px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  font-size: 16px;
+  color: darkcyan;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+}
+
+.random-info {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #fff;
+  background: url('/images&VIdeos/lightning-gd1f7c93cd_1920.jpg') no-repeat fixed;
+}
+
+.random-info h2 {
+  font-size: 2rem;
+}
+
+.info {
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+  max-width: 400px;
+}
+
+.info img {
+  max-width: 150px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.info p {
+  font-size: 1.2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+form {
+  box-sizing: border-box;
+}
+
+.newsletter {
+  background: transparent;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  background: url('/images&VIdeos/NewsletterBG.jpg') no-repeat fixed;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.newsletter h2 {
+  color: darkcyan;
+  text-align: center;
+  font-size: 32px;
+}
+
+.newsletter p {
+  color: darkcyan;
+  text-align: center;
+  font-size: 22px;
+}
+
+.newsletter .newsletter-input {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.newsletter-input input {
+  width: 75%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+}
+
+.newsletter-input input::placeholder {
+  color: darkblue;
+}
+.newsletter .btn {
+    width: 50%;
+    height: 44px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.quote {
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: aquamarine;
+}
+
+.quote blockquote {
+  font-size: 1.5rem;
+  color: #555;
+  margin: 0;
+  color: aquamarine;
+}
+
+
+.quote p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #888;
+}
+
+
+@media (max-width: 768px) {
+  header {
+      padding: 10px;
+  }
+
+  header img {
+      max-width: 150px;
+  }
+
+  header nav {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  header nav a {
+      margin: 5px;
+  }
+
+  .signup {
+      padding: 20px;
+  }
+
+  .signup h2 {
+      font-size: 1.5rem;
+  }
+
+  .signup p {
+      font-size: 1rem;
+  }
+
+  .random-info {
+      padding: 20px;
+  }
+
+  .random-info h2 {
+      font-size: 1.5rem;
+  }
+
+  .random-info .info {
+      flex-wrap: wrap;
+  }
+
+  .random-info .info img {
+      max-width: 100px;
+  }
+
+  .quote {
+      padding: 20px;
+  }
+
+  .quote blockquote {
+      font-size: 1rem;
+  }
+}
